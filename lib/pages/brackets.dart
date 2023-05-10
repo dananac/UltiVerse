@@ -5,6 +5,6 @@ class BracketsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    body: Center(child: Text('Brackets', style: TextStyle(fontSize: 72),)),
+    body: Center(child: Text('Brackets', style: TextStyle(fontSize: 72, color: Colors.red.shade400),)),
   );
 }

@@ -43,8 +43,15 @@ class HomePage extends StatelessWidget {
                       title: Text('Event Planning - Step 1', style: TextStyle(color: Colors.red[400]),),
                     ),
                     body: Center(
-                      child: Text('This will be our step 1 screen to create a new event!', style: TextStyle(fontSize: 44, fontWeight: FontWeight.bold),)
-                    )
+                      //child: Text('This will be our step 1 screen to create a new event!', style: TextStyle(fontSize: 44, fontWeight: FontWeight.bold),)
+                      child: TextField(
+                        obscureText: false,
+                        decoration: InputDecoration(
+                          border: OutlineInputBorder(),
+                          labelText: 'Event Name',
+                        ),
+                      ),
+                    ),
                   );
                 })
               );

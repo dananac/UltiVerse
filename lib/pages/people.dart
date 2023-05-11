@@ -5,10 +5,8 @@ class PeoplePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    //body: Center(child: Text('Events', style: TextStyle(fontSize: 72, color: Colors.red.shade400),)),
     body: ListView(
       children: <Widget>[
-        //Card(child: ListTile(title: Text('One-line ListTile'))),
         Card(
           child: ListTile(
             leading: Icon(Icons.calendar_month),
